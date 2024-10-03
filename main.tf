@@ -46,7 +46,7 @@ resource "kubernetes_manifest" "clusterissuer_cloudflare_issuer" {
         "email"          = var.cloudflare_cluster_issuer_email
         "preferredChain" = var.preferred_chain
         "privateKeySecretRef" = {
-          "name" = "cloudflare-issuer-account-key"
+          "name" = var.private_key_name
         }
         "server" = var.cert_source
         "solvers" = [

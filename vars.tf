@@ -31,3 +31,7 @@ variable "cert_source" {
 variable "dns_zone" {
   type = string
 }
+
+variable "private_key_name" {
+  type = string
+}

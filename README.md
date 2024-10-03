@@ -38,6 +38,7 @@ No modules.
 | <a name="input_dns_zone"></a> [dns\_zone](#input\_dns\_zone) | n/a | `string` | n/a | yes |
 | <a name="input_helm_repos"></a> [helm\_repos](#input\_helm\_repos) | n/a | `map(string)` | <pre>{<br>  "cert-manager": "https://charts.jetstack.io"<br>}</pre> | no |
 | <a name="input_preferred_chain"></a> [preferred\_chain](#input\_preferred\_chain) | n/a | `string` | n/a | yes |
+| <a name="input_private_key_name"></a> [private\_key\_name](#input\_private\_key\_name) | n/a | `string` | n/a | yes |
 
 ## Outputs
 
