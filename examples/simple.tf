@@ -9,5 +9,5 @@ module "cert-manager-cloudflare" {
   cloudflare_cluster_issuer_email = "john@doe.com"
   preferred_chain                 = "root chain"
   dns_zone                        = "example.com"
-  # private_key_name                = "private_key_name"
+  private_key_name                = "private_key_name"
 }
