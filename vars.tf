@@ -7,7 +7,7 @@ variable "helm_repos" {
 }
 
 variable "cert_manager_helm_chart_version" {
-  default = "1.15.1"
+  default = "1.15.3"
 }
 
 variable "cloudflare_token" {
