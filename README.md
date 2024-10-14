@@ -7,8 +7,8 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_helm"></a> [helm](#provider\_helm) | 2.15.0 |
-| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | 2.32.0 |
+| <a name="provider_helm"></a> [helm](#provider\_helm) | 2.16.0 |
+| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | 2.33.0 |
 
 ## Modules
 
@@ -27,7 +27,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_cert_manager_helm_chart_version"></a> [cert\_manager\_helm\_chart\_version](#input\_cert\_manager\_helm\_chart\_version) | n/a | `string` | `"1.16.0"` | no |
+| <a name="input_cert_manager_helm_chart_version"></a> [cert\_manager\_helm\_chart\_version](#input\_cert\_manager\_helm\_chart\_version) | n/a | `string` | `"1.16.1"` | no |
 | <a name="input_cert_source"></a> [cert\_source](#input\_cert\_source) | n/a | `string` | `"https://acme-v02.api.letsencrypt.org/directory"` | no |
 | <a name="input_cloudflare_cluster_issuer_email"></a> [cloudflare\_cluster\_issuer\_email](#input\_cloudflare\_cluster\_issuer\_email) | n/a | `string` | n/a | yes |
 | <a name="input_cloudflare_token"></a> [cloudflare\_token](#input\_cloudflare\_token) | n/a | `string` | n/a | yes |
